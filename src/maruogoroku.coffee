@@ -15,10 +15,10 @@
 #   aki
 
 module.exports = (robot) ->
-  robot.respond /おはよう/, (msg) ->
-    msg.send "今日も一日頑張るぞい！（周回を"
+  robot.respond /おはよう/i, (msg) ->
+    msg.send '今日も一日頑張るぞい！（周回を'
 
 module.exports = (robot) ->
   robot.respond (/ねむい|眠い|ねむ/), (msg) ->
-    msg.send "Zzz...（首ｶｸｯｶｸｯ"
+    msg.send 'Zzz...（首ｶｸｯｶｸｯ'
 
