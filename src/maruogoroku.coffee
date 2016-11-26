@@ -15,7 +15,7 @@
 #   aki
 
 module.exports = (robot) ->
-  robot.respond /おはよう/i, (msg) ->
+  robot.respond /おはよう/, (msg) ->
     msg.send '今日も一日頑張るぞい！（周回を'
 
 module.exports = (robot) ->
